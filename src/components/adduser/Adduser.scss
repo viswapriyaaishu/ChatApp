@@ -1,0 +1,61 @@
+.addusercon{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    height: max-content;
+    width: max-content;
+    padding: 25px 16px;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.496);
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    .adduserlcon{
+        display: flex;
+        gap: 20px;
+
+        input{
+            border-radius: 5px;
+        }
+        button{
+            background-color: #1f8ef1;
+            padding: 15px;
+            color:white;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+
+    .adduserrcon{
+        display: flex;
+        
+        margin-left: 10px;
+        gap:70px;
+        .adduserrcondet{
+            display:flex;
+            gap:15px;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            height:40px;
+            width:40px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.adduserbtn{
+                background-color: gray;
+                display: flex;
+                align-items: center;
+                color:black;
+                font-size: 15px;
+                padding:3px;
+                border-radius: 5px;
+                margin-left: 12px;
+                cursor:pointer;
+            }

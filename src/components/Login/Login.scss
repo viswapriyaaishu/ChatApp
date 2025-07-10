@@ -1,0 +1,100 @@
+.loginout{
+    height:90%;
+    width:80%;
+    background-color: rgba(17, 25, 40, 0.75);
+    backdrop-filter:blur(19px) saturate(180%);
+    color:white;
+    display:flex;
+    .loginlcon{
+        div{
+            font-size: 20px;
+        }
+        flex:1;
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+            display:flex;
+        flex-direction: column;
+        gap:20px;
+        input{
+            background-color:rgba(17,25,40,0.6);
+            outline:none;
+            border:none;
+            color:white;
+            height:6vh;
+            border-radius: 5px;
+        }
+        }
+        button{
+            padding:10px;
+            border-radius: 5px;
+            background-color: #1f8ef1;
+            color:white;
+            font-weight: 350;
+        }
+    }
+    .sepcon{
+        width:2px;
+        background-color:#dddddd35;
+    }
+    .rlogincon{
+        flex:1;
+        padding:10px;
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            font-size: 20px;
+            
+        }
+        form{
+            display:flex;
+        flex-direction: column;
+        gap:20px;
+        input{
+           background-color:rgba(17,25,40,0.6);
+           height:6vh;
+            outline:none;
+            border:none;
+            color:white;
+            border-radius: 5px;
+        }
+
+        label{
+            display: flex;
+            gap:10px;
+            align-items: center;
+            img{
+                height:40px;
+                width:40px;
+                border-radius:5px;
+                opacity: 0.6;
+                object-fit: cover;
+            }
+            p{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        }
+        button{
+            padding:10px;
+            border-radius: 5px;
+            background-color: #1f8ef1;
+            color:white;
+            font-weight: 350;
+            &:disabled{
+                cursor:not-allowed;
+                background-color: #1f8ff19c;
+            }
+        }
+    }
+}

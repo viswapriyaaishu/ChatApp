@@ -1,0 +1,115 @@
+.listcon{
+    color:white;
+    flex:1;
+    border-right:1px solid #dddddd35;
+    
+
+    .userdet{
+        display:flex;
+        justify-content: space-between;
+        padding:10px;
+
+        .userinfo{
+            display:flex;
+            gap:20px;
+        }
+        img{
+            height:50px;
+            width:50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .icons{
+            display: flex;
+            gap:10px;
+            .icon{
+            display: flex;
+            align-items: center;
+        }
+        }
+    }
+
+    .ipsearch{
+        margin-top:15px;
+        display:flex;
+        gap:20px;
+       padding-left: 14px;
+        .ipsearchtext{
+            display:flex;
+            align-items:center;
+            background-color: rgba(17,25,40,0.5);
+            input{
+                background-color: transparent;
+                width:13vw;
+                height:4vh;
+                outline:none;
+                border:none;
+                color: white;
+            }
+            .icon{
+                color:antiquewhite;
+               display: flex;
+               align-items: center;
+               padding-left:3px;
+            }
+        }
+    }
+
+    .chatsmessages{
+        margin-top: 18px;
+        overflow-y: auto;
+       &::-webkit-scrollbar{
+        background-color: transparent;
+       }
+        
+        height:70vh;
+        display:flex;
+        flex-direction: column;
+
+        .justcon{
+            display:flex;
+            gap:50px;
+            border-bottom: 1px solid #dddddd35;
+            
+           padding:15px 0px;
+            .justconwrap{
+                padding:0px 20px;
+                display: flex;
+                gap:25px;
+                .lcon{
+                height:40px;
+                
+            }
+            .rcon{
+            display:flex;
+            flex-direction:column;
+           
+            
+        }
+            }
+
+            &.normal{
+                background-color: transparent;
+            }
+            &.bluey{
+                
+                background-color: #5183fe;
+            }
+        }
+        
+    }
+}
+
+.icon{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.icon1{
+    display:flex;
+    align-items: center;
+    border-radius:6px;
+    padding:4px;
+}
+

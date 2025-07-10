@@ -1,0 +1,118 @@
+.detailscon{
+    color:white;
+    flex:1;
+    .detailsconwrap{
+        
+        
+        .dtopcover{
+            border-bottom: 1px solid #dddddd35;
+            .dtop{
+            display:flex;
+            flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top:20px;
+                padding-bottom: 6px;
+        padding-left: 15px;
+                gap:10px;
+            .dtopimgcon{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width:80px;
+                    height:80px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        
+        }
+    }
+}
+.dbottom{
+            padding-top:20px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .dbottomop{
+            display:flex;
+            justify-content: space-between;
+
+           .dbottomopsym{
+            border-radius: 50%;
+            background-color: rgba(17,25,40,0.5);
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+           } 
+            .imgit1{
+                display: flex;
+                justify-content: space-between;
+                .imgit11{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        height:20px;
+                        width:20px;
+                    }
+                }
+
+                .imgit13{
+                    border-radius: 50%;
+                    background-color: rgba(17,25,40,0.5);
+                    display: flex;
+            align-items: center;
+            margin-right: 10px;
+
+            .fdi{
+                height:30px;
+                width:12px;
+                padding:2px 4px;
+            }
+                }
+            }
+        }
+        .blockbtn{
+            width:80%;
+            background-color: rgba(230,74,105,0.553);
+            padding-left: 0px;
+            margin-bottom:4px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            padding:10px 20px;
+
+            &:hover{
+                background-color: rgba(220,20,60,0.796);
+            }
+        }
+
+        .logoutbtn{
+            width:80%;
+            background: blue;
+            
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            padding:10px 20px;
+        }
+        }
+
+        .imgcon{
+            width:100%;
+            
+            display:flex;
+            flex-direction: column;
+            gap:12px;
+            justify-content: space-between;
+
+            .imgit1{
+                display:flex;
+                justify-content: space-between;
+            }
+        }

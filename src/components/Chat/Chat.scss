@@ -1,0 +1,181 @@
+.chatcon{
+    color:white;
+    flex:2;
+    border-right:1px solid #dddddd35;
+    display:flex;
+    flex-direction: column;
+
+    .chatcon1{
+        flex:1;
+       border-bottom:1px solid #dddddd35;
+        display:flex;
+        padding: 6px 0px;
+        .chatconwrap{
+           width:100%;
+        display:flex;
+        justify-content: space-between;
+        padding:10px;
+        .lchatcon{
+        display:flex;
+        gap:20px;
+        .icon{
+height:50px;
+width:50px;
+border-radius: 50%;
+}
+
+.lchatdet{
+display:flex;
+flex-direction: column;
+}
+    }
+
+    .rchatcon{
+        display:flex;
+    }
+    }
+    }
+    .chatcon2{
+        overflow-y:auto;
+        &::-webkit-scrollbar{
+            background-color:transparent;
+        }
+        flex:5;
+        display:flex;
+        flex-direction: column;
+        gap:50px;
+       
+        .othermsg{
+          
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-width:70%;
+        }
+        .usermsg{
+           padding-right:15px;
+            align-self: flex-end;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-width:70%;
+            padding-left: 20px;
+            
+           
+            .mmobj{
+                &.usertext{
+                    background-color: #5183fe;
+                     padding:6px 15px;
+                }
+                &.othertext{
+                    background-color: transparent;
+                }
+               
+                border-radius: 4px;
+                
+            }
+            
+        }
+
+        .lpar{
+            display: flex;
+            flex-direction: column;
+            gap:3px;
+            
+            
+            .lobj{
+            display:flex;
+            
+            gap:5px;
+            align-items: flex-start;
+
+            img{
+                height:30px;
+                width:30px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+        
+        .robj{
+            font-size:small;
+        }
+        }
+    }
+
+    .chatcon3{
+        flex:1;
+        display:flex;
+        padding-left:10px;
+        padding-right:13px;
+        align-items: center;
+        gap:20px;
+        input{
+            height:6vh;
+            width:30vw;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            background-color: rgba(17,25,40,0.5);
+            color:white;
+            &.textblock{
+                cursor:not-allowed;
+
+            }
+            
+        }
+        .chatcon3icons{
+            display:flex;
+            gap:5px;
+        }
+        .sendbtn{
+            background-color: #5183fe;
+            color:white;
+            border-radius: 6px;
+            padding:10px 20px;
+        }
+        .icon2{
+            display:flex;
+            align-items: center;
+        }
+    }
+}
+.emojiclass{
+    position:relative;
+
+    .emojichild{
+        position:absolute;
+        bottom:10px;
+        right:0px;
+        left:1px;
+    }
+}
+.mobj{
+    display:flex;
+    
+    flex-direction:column;
+    padding: 0px;
+    width: max-content;
+    :nth-child(2){
+        padding-right:10px;
+    }
+
+    &.mobjc1{
+        justify-items: flex-end;
+        :nth-child(1){
+            justify-self: flex-end;
+        }
+    }
+    &.mobjc2{
+        justify-items: flex-start;
+        padding-left: 10px;
+        :nth-child(1){
+            justify-self: flex-start;
+            padding: 0px;
+            margin-right:100px;
+        }
+        :nth-child(2){
+            padding: 0px;
+            margin-right:0px;
+        }
+    }
+}
